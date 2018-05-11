@@ -4,7 +4,7 @@
  body {
       font: 400 15px Lato, sans-serif;
       line-height: 1.8;
-   	background-color: #996633;
+   	background-color: #413010;
 		color: #fff;
 		padding: 100px 25px;
 		font-family: Montserrat, sans-serif;
@@ -18,26 +18,23 @@
 		background-size: cover;
   }
 	 
-	  .bg-1 { 
-	    background: url(images/donutDelightsStoreFront1.1.jpg) no-repeat center center fixed; 
-  display: table;
-  height: 400px;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	  		
+  .bg-1 { 
+	  opacity: 25%;
+		background: url(../../../Sp18C-TeeiaBattle/Sp18C-TeeiaBattle/DonutDelights/images/donutDelightsStoreFront1.1.jpg) no-repeat center center fixed; 
+		display: table;
+		height: 400px;
+		position: relative;
+		width: 100%;
+
 }
-	  p{
-		 color: chocolate; 
-	  }  
+
+
+
 	  
   h2 {
       font-size: 24px;
       text-transform: uppercase;
-      color: #303030;
+      color: whitesmoke;
       font-weight: 600;
       margin-bottom: 30px;
   }
@@ -53,31 +50,31 @@
   h4 {
       font-size: 19px;
       line-height: 1.375em;
-      color: #303030;
-      font-weight: 400;
+      font-weight: 500px;
       margin-bottom: 30px;
   }  
   .jumbotron {
-		background-color: #996633;
-		color: #fff;
-		padding: 100px 25px;
 		font-family: Montserrat, sans-serif;
-		background: url(images/donut-+-hot-coffee-2-copy1.jpg) no-repeat center center fixed; 
-		display: table;
-		height: 15%;
-		position: relative;
-		width: 100%;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
+		background: url(../../../Sp18C-TeeiaBattle/Sp18C-TeeiaBattle/DonutDelights/images/donut-+-hot-coffee-2-copy1.jpg) no-repeat center center fixed; 
+		  background-position: center;
+    background-size: cover;
 	}
   .container-fluid {
       padding: 60px 50px;
+	 
   }
   .bg-grey {
-      background-image: url(images/Doughnuts.JPG)
+		background: url(../../../Sp18C-TeeiaBattle/Sp18C-TeeiaBattle/DonutDelights/images/bakery.jpg) no-repeat center center fixed; 
+
   }
+
+.map{
+		background: url(../../../Sp18C-TeeiaBattle/Sp18C-TeeiaBattle/DonutDelights/images/IMG_1117.jpg) no-repeat center center fixed; 
+		position: relative;
+		width: 100%;
+		
+	
+}
   .logo-small {
       color: #f4511e;
       font-size: 50px;
@@ -116,6 +113,8 @@
   .item span {
       font-style: normal;
   }
+
+
   .panel {
       border: 1px solid #f4511e; 
       border-radius:0 !important;
@@ -154,6 +153,10 @@
       background-color: #f4511e;
       color: #fff;
   }
+
+.panel-body{
+	color: chocolate;
+}
   .navbar {
       margin-bottom: 0;
       background-color: #413010;
@@ -164,6 +167,7 @@
       letter-spacing: 4px;
       border-radius: 0;
       font-family: Montserrat, sans-serif;
+	  float: right;
   }
   .navbar li a, .navbar .navbar-brand {
       color: #fff !important;
@@ -181,7 +185,7 @@
       margin-bottom: 20px;
       color: #f4511e;
   }
-  .slideanim {visibility:hidden;}
+  .slideanim {}
   .slide {
       animation-name: slide;
       -webkit-animation-name: slide;
