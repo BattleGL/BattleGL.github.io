@@ -2,10 +2,9 @@
 /* CSS Document */
 
  body {
-      font: 400 15px Lato, sans-serif;
-      line-height: 1.8;
-   	background-color: #413010;
-		color: #fff;
+		font: 400 15px Lato, sans-serif;
+		line-height: 1.8;
+		background-color: #413010;
 		padding: 100px 25px;
 		font-family: Montserrat, sans-serif;
 		display: table;
@@ -20,7 +19,7 @@
 	 
   .bg-1 { 
 	  opacity: 25%;
-		background: url(../../../Sp18C-TeeiaBattle/Sp18C-TeeiaBattle/DonutDelights/images/donutDelightsStoreFront1.1.jpg) no-repeat center center fixed; 
+		background: url( /images/donutDelightsStoreFront1.1.jpg) no-repeat center center fixed; 
 		display: table;
 		height: 400px;
 		position: relative;
@@ -55,7 +54,7 @@
   }  
   .jumbotron {
 		font-family: Montserrat, sans-serif;
-		background: url(../../../Sp18C-TeeiaBattle/Sp18C-TeeiaBattle/DonutDelights/images/donut-+-hot-coffee-2-copy1.jpg) no-repeat center center fixed; 
+		background: url( /images/donut-+-hot-coffee-2-copy1.jpg) no-repeat center center fixed; 
 		  background-position: center;
     background-size: cover;
 	}
@@ -64,12 +63,12 @@
 	 
   }
   .bg-grey {
-		background: url(../../../Sp18C-TeeiaBattle/Sp18C-TeeiaBattle/DonutDelights/images/bakery.jpg) no-repeat center center fixed; 
+		background: url( /images/bakery.jpg) no-repeat center center fixed; 
 
   }
 
 .map{
-		background: url(../../../Sp18C-TeeiaBattle/Sp18C-TeeiaBattle/DonutDelights/images/IMG_1117.jpg) no-repeat center center fixed; 
+		background: url( /images/IMG_1117.jpg) no-repeat center center fixed; 
 		position: relative;
 		width: 100%;
 		
